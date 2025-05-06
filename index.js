@@ -12,7 +12,7 @@ const wss = new WebSocket.Server({ server })
 
 let clients = {} // Almacenar jugadores conectados
 
-// Evento cuando un cliente se conecta
+// Evento cuando un cliente se conectaa
 wss.on('connection', (ws) => {
   console.log('🔌 Nuevo cliente conectado')
 
